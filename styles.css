@@ -5,13 +5,15 @@
 }
 
 #wrapper{
-  width: auto;
+
+ display: flex;
+  justify-content: center;
   height:100vh;
   overflow-x:hidden;
   overflow-y:auto;
+
 }
-
-
+  
 .gried{
   display: grid;
   grid-template-columns: repeat(1,1fr);
